@@ -1,0 +1,381 @@
+.wrapper {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: content-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*画像サイズ*/
+.size {
+    width: 200px;
+    height: 200px;
+}
+
+.size3 {
+    width: 500px;
+    height: 300px;
+}
+
+.size4 {
+    width: 300px;
+
+}
+
+body {
+    color: #333333;
+    margin: 0;
+    text-align: center;
+    box-sizing: content-box;
+}
+
+/*header*/
+header {
+    background-color: #4f79cc89;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+header ul {
+    margin: 0;
+}
+
+header ul li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+header ul li a {
+    color: #f9f8fb;
+    font-size: 20px;
+}
+
+header img {
+    height: 30px;
+}
+
+/*footer*/
+footer {
+    background-color: #4f79cc89;
+    color: #FFFFFF;
+    padding: 10px;
+}
+
+/*top画像*/
+.top {
+    background-image: url(pic/28953355_m.jpg);
+    background-size: cover;
+    padding: 200px 0;
+}
+
+.top2 {
+    background-image: url(pic2/kireinakogan.jpg);
+    background-size: cover;
+    padding: 200px 0;
+}
+
+.top3 {
+    background-image: url(pic3/2023_kogaigakusyu.jpg);
+    background-size: cover;
+    padding: 200px 0;
+}
+
+.top4 {
+    background-image: url(pic4/スクリーンショット\ 2024-03-08\ 12.27.00.png );
+    background-size: cover;
+    padding: 200px 0;
+}
+
+.top5 {
+    background-image: url(pic5/スクリーンショット\ 2024-02-21\ 14.59.59.png);
+    background-size: cover;
+    padding: 200px 0;
+}
+
+.top h1 {
+    font-size: 70px;
+    letter-spacing: 5px;
+}
+
+.top2 h1 {
+    font-size: 70px;
+    letter-spacing: 5px;
+}
+
+.top3 h1 {
+    font-size: 70px;
+    letter-spacing: 5px;
+}
+
+.top4 h1 {
+    font-size: 70px;
+    letter-spacing: 5px;
+}
+
+.top5 h1 {
+    font-size: 70px;
+    letter-spacing: 5px;
+}
+
+/*about*/
+.about {
+    background-color: #fdfeff;
+    padding: 100px;
+}
+
+.about table {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+
+}
+
+
+/*line*/
+hr {
+    margin-bottom: 50px;
+    height: 5px;
+    width: 150px;
+    border: none;
+}
+
+.blue-line {
+    background-color: #5882d7;
+}
+
+.white-line {
+    background-color: #FFFFFF;
+}
+
+.hr3{
+    height: 8px;
+  background-image: repeating-linear-gradient(45deg, #a6cbf1 0, #ccc 1px, transparent 0, transparent 50%);
+  background-size: 8px 8px;
+  width:auto;
+}
+
+
+/*skikks*/
+.skills {
+    width: 100%;
+    background-color: #7e94bf;
+    padding: 100px 0;
+    height: auto;
+}
+
+.skills p {
+    color: #FFFFFF;
+}
+
+.box {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 20px;
+    margin: 20px;
+    width: 15%;
+}
+
+.box-skills {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px;
+    margin: 20px;
+    width: 130px;
+    height: 200px;
+}
+
+.upper-box,
+.lower-box {
+    height: auto;
+}
+
+.box img,
+.box-skills img {
+    display: block;
+    margin: 20px auto;
+    width: 50%;
+}
+
+
+body>div.list {
+    margin: auto;
+    display: flex;
+    flex-flow: wrap;
+}
+
+
+/*リンクの色（blog）*/
+.title {
+    color: #333333
+}
+
+/*blog年間活動*/
+.pf-title{
+    margin-top: 100px;
+}
+
+.card
+.list {
+    margin: auto;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+}
+
+.item {
+    margin: 0 10px;
+}
+
+.item img {
+    object-fit: cover;
+    width: 400;
+    height: 257;
+    border-radius: 5px;
+}
+
+.list a {
+    width: 400px;
+    height: 400px;
+    margin: 30px;
+}
+
+.card-list {
+    display: flex;
+    margin: 20px;
+
+}
+
+/*portfolio年間活動*/
+.p2 {
+    background-color: #ffffff;
+   
+}
+
+.p2 p {
+    color: #333333;
+    text-align: left;
+    display: inline-block;
+}
+
+
+
+.p2_1 {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.p2_2 {
+    display: flex;
+    justify-content: center;
+}
+
+.item{
+    display:inline-block
+}
+
+/*fieldwork.html　komyukatu/html*/
+.about2{
+    padding:100px;
+}
+
+.aboutabout2 {
+    text-align: left center;
+
+}
+
+
+
+/*komyukatu.html　アルゴのスライド*/
+.p5_1 {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.p5_2 {
+    display: flex;
+    justify-content: center;
+}
+
+.about5{
+    padding:50px;
+}
+
+.about5_2 h3 {
+    text-align: left;
+}
+
+/*puroN.html　プロNグループワーク*/
+.puroN {
+    justify-content: center;
+    display: flex;
+
+}
+
+.puroN_l,
+.puroN_r {
+    width: 50%;
+}
+
+.puroN_l {
+    text-align: center;
+}
+
+.puroN_r {
+    margin: 0 0 0 auto;
+
+}
+
+.puroN_g {
+ margin: 0 0 0 auto;
+    text-align: center;
+    display: inline-block;
+    background-color: #a7dafa6e;
+    border-radius: 15px;
+}
+
+.puroN_g p {
+    text-align: left;
+    display: inline-block;
+    margin: 0
+}
+
+/*puroN.html　個人制作*/
+.about4_2_1 {
+    text-align: center;
+    display: block;
+}
+
+.about4_2_1.text {
+    text-align: left;
+    display: inline-block;
+}
+
+.p3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/*kogaigakusyu/html　校外学習*/
+.about3 {
+    text-align: center;
+    display: inline-block;
+    padding:100px;
+}
+
+.about3.text {
+    text-align: left;
+    display: inline-block;
+}
